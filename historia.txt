@@ -1,0 +1,8 @@
+1. Creación del respositorio y de las subcarpetas correspondientes
+	a) git init // iniciar el repositorio local
+	b) mkdir -p Proyectos/Prj1 Procesos/ControlDeCambios // Creación de las carpetas y subcarpetas del repositorio en cuestion
+
+2. Añadimos la v1 del documento y las plantillas creando el fichero README.txt en la carpeta raíz. 
+	a) touch README.txt // Creamos el fichero de historia y posteriormente añadimos los comandos que utilizamos antes
+	b) cp -r Repositorio-individual/Procesos/ControlDeCambios/Plantillas_vacías/ RepIndividualENSO/Procesos/ControlDeCambios/ // Pasamos las plantillas vacías a la carpeta que hemos creado
+	c) cp ENSO/v1/DP_ControldeCambios_Grupo5.docx RepIndividualENSO/Procesos/ControlDeCambios/ // Pasamos la v1 de la memoria al repositorio
