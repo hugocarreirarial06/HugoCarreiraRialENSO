@@ -22,3 +22,12 @@
 	a) cp ENSO/v2/DP_ControldeCambios_Grupo5.docx RepIndividualENSO/Procesos/ControlDeCambios/ // Anhadimos la nueva version 2
 	b) git add . 
 	c) git commit -m "Actualizamos al repositorio a la version 2"
+
+7. Juntamos las dos ramas, master y mejoras. 
+	a) git checkout master // cambiamos a la rama de master (principal)
+	b) git merge Mejoras  // juntamos las dos ramas 
+	c) git branch -d Mejoras // nos deshacemos de la rama de mejoras
+
+8. Eliminamos el pdf
+	a) git rm Procesos/ControlDeCambios/EvaluaciónPropuestaCambios.pdf // Eliminamos el pdf del repositorio
+
