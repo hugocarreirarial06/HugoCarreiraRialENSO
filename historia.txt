@@ -6,3 +6,19 @@
 	a) touch README.txt // Creamos el fichero de historia y posteriormente añadimos los comandos que utilizamos antes
 	b) cp -r Repositorio-individual/Procesos/ControlDeCambios/Plantillas_vacías/ RepIndividualENSO/Procesos/ControlDeCambios/ // Pasamos las plantillas vacías a la carpeta que hemos creado
 	c) cp ENSO/v1/DP_ControldeCambios_Grupo5.docx RepIndividualENSO/Procesos/ControlDeCambios/ // Pasamos la v1 de la memoria al repositorio
+
+3. Actualizamos el almacenamiento del repositorio local
+	a) git add .
+	b) git commit -m "Rep. Local Primera inicializacion"
+
+4. Guardamos como una etiqueta marcando la version
+	a) git tag -a R1 -m "Rep Local inicial R1"
+
+5. Creamos el branch de "Mejoras"
+	a) git checkout -b Mejoras  // creamos la nueva rama de cambios y la seleccionamos como la actual
+	b) cp ENSO/EvaluaciónPropuestaCambios.pdf RepIndividualENSO/Procesos/ControlDeCambios/ // Anhadimos la propuesta de los cambios que se desean introducir
+
+6. Actualizamos la memoria a la version v2 que tenemos almacenada en v2. 
+	a) cp ENSO/v2/DP_ControldeCambios_Grupo5.docx RepIndividualENSO/Procesos/ControlDeCambios/ // Anhadimos la nueva version 2
+	b) git add . 
+	c) git commit -m "Actualizamos al repositorio a la version 2"
