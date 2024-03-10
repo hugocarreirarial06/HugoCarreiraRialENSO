@@ -31,3 +31,22 @@
 8. Eliminamos el pdf
 	a) git rm Procesos/ControlDeCambios/EvaluaciónPropuestaCambios.pdf // Eliminamos el pdf del repositorio
 
+9. Actualizamos el almacenamiento del repositorio local y etiqutamos la versión R3
+	a) git add .
+	b) git commit -m "Repositorio despues del merge"
+	c) git tag -a R2 -m "Rep Local inicial R2" 
+
+10. Modificar el archivo de word y actualizamos el repositorio 
+	a) cp ENSO/v3/DP_ControldeCambios_Grupo5.docx RepIndividualENSO/Procesos/ControlDeCambios/ // Anhadimos la nueva version 3
+	b) git add . 
+	c) git commit -m "Actualizamos al repositorio"
+
+11. Devolver la rama principal al estado anterior. 
+	a) git reset --hard HEAD~1  // volvemos al commit hecho anteriormente
+	b) cp ENSO/v3/DP_ControldeCambios_Grupo5.docx RepIndividualENSO/Procesos/ControlDeCambios/ // Anhadimos la nueva version 3 otra vez
+	c) git add .
+	d) git commit -m "volcamos de nuevo la v3"
+	d) git tag -a R3 -m "Despues de volver a v2 y actualizar a v3"
+
+
+
